@@ -47,7 +47,7 @@ public class Task_3 {
 
         for (int i = 0; i < matcher.length(); i++) {
             if (Character.isDigit(matcher.charAt(i))) {
-                result += matcher.charAt(i) - 48;
+                result += matcher.charAt(i) - 48; //converting character askii value to integer
             }
         }
 
